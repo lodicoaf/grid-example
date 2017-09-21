@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+display: grid;
+height: 100%;
+grid-template-rows: 25% 25% 25% 25%;
+grid-template-columns: [first] 200px [main] 200px [side] 200px [last];
+}
+
+h1{
+  grid-column-start: 1;
+}
+
+h5{
+  grid-column-start: 2;
+}
